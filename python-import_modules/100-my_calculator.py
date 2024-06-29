@@ -19,4 +19,4 @@ if __name__ == "__main__":
         print(f"{a} {operator} {b} = {div(a, b)}")
     else:
         print("Unknown operator. Available operators: +, -, * and /")
-        exist(1)
+        exit(1)
